@@ -5,10 +5,10 @@ public class FuelTank {
     private int mass;
     private int fuel;
     private int volume;
-    FuelTank(String name, int mass, int fuelConsumption,int volume){
-        this.fuel=fuelConsumption;
-        this.mass=mass;
-        this.name=name;
-        this.volume=volume;
+    FuelTank(FuelTankVariants ft){
+        this.fuel=ft.fuel;
+        this.mass=ft.mass;
+        this.name=ft.name;
+        this.volume=ft.volume;
     }
 }
